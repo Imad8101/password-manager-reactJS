@@ -1,0 +1,95 @@
+.password-item {
+  list-style-type: none;
+  border: 1px solid #9ba9eb;
+  width: 80%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.initial-container {
+  background-color: coral;
+  /* padding: 2px 20px; */
+  width: 190px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.initial {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+}
+.password-details-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.website {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.username {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.password {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+.star-img {
+  width: 100%;
+  margin: 0;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-logo {
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-item {
+    width: 250px;
+    max-width: 350px;
+    margin: 20px;
+    justify-content: space-around;
+  }
+  .initial-container {
+    width: 35px;
+    height: 45px;
+  }
+  .initial {
+    font-size: 20px;
+  }
+  .star-img {
+    width: 100px;
+    margin: 0;
+  }
+
+  .website {
+    font-size: 18px;
+  }
+  .username {
+    font-size: 15px;
+  }
+  .password {
+    font-size: 15px;
+  }
+}
